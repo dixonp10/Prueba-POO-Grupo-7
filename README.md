@@ -28,6 +28,9 @@ Construir una aplicación de consola en Java que permita a un almacén gestionar
 **Relaciones.** `Inventario` guarda una referencia al primer `Producto` y cada `Producto` apunta al siguiente (atributo `siguiente`), formando una cadena de objetos; así se administran varios registros sin arreglos ni ArrayList. `Buscador` recibe el `Inventario` en su constructor y recorre esa misma cadena (asociación). `Main` crea ambos objetos y los usa. Diagrama: 
 
 
+<img width="1784" height="470" alt="diagrama_clases" src="https://github.com/user-attachments/assets/1e4a5cb7-0a1d-4ad1-ab02-d49415d3e134" />
+
+
 ## Menú del programa
 
 ```
@@ -45,17 +48,37 @@ Construir una aplicación de consola en Java que permita a un almacén gestionar
 ## Capturas
 
 Caso de referencia (stock 8, mínimo 10 → alerta de existencias bajas):
+
+
 <img width="700" height="1040" alt="01_registro_y_alerta" src="https://github.com/user-attachments/assets/2e6c0b1f-4967-418f-b237-bc0f290c7066" />
+
+
 Búsqueda predictiva por prefijo:
+
+
 <img width="877" height="580" alt="02_busqueda_prefijo" src="https://github.com/user-attachments/assets/e246fcf4-af3d-4f97-8e75-41f2e837ac1d" />
+
+
 Validaciones de salidas (stock insuficiente, cantidad 0 y negativa):
+
+
 <img width="877" height="680" alt="03_validacion_salidas" src="https://github.com/user-attachments/assets/068d60e1-233c-441f-9b0d-e561af49feee" />
+
+
 Validación de datos de registro y del menú:
 <img width="877" height="580" alt="04_validacion_datos" src="https://github.com/user-attachments/assets/42fb42ef-ad53-4bc3-83a8-b006a589ad93" />
+
+
 Entradas, salidas y búsqueda por código:
+
+
 <img width="877" height="980" alt="05_entradas_salidas" src="https://github.com/user-attachments/assets/53ec55ae-2c81-4c9d-a4eb-b319f73761e2" />
 Listado en orden alfabético (inserción ordenada):
+
+
 <img width="700" height="900" alt="06_listado_ordenado" src="https://github.com/user-attachments/assets/dd7ddd33-fe62-4d10-aa65-2163df5e5a76" />
+
+
 ## Distribución de responsabilidades
 
 | Integrante | Responsabilidad | Archivos | Commit sugerido |
